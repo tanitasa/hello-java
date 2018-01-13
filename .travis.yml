@@ -1,2 +1,9 @@
 language: java
 jdk: oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: InZZK3Y2Ttca531FnuKllQMtPSk3ZQhXl5Gi0OCNJ+7EWm4d+D53kVzfnZ9E931Eisw4fxg7/hv99cWsQMzbI2aqfTNBo9t3c8KPCnS+8YGbucLMloKFfqysnesfGYDVx9CY81xOqtW9vjCyn1+UXmarveMd8W5nyJvlwE+JdTQGWdx5J470tVfK4psdhEtzCQt3IsBS78/KvCm1PtejQC8nOZeTxn9bKfM57mbDYyw4zcG4UPC+BWqsxnngktV7CaDfdGgLmxn9/ib3jHeW9XbdPjwCzxwGcpuQrG4dCVU7Yjc/t6A8JeLeoAyW6ljOVArT9ZIfEVeV/kecfOoicqciC/TiuVhNaCsWgjrYAojDRpG4w/IIasOQLP+VQo+koMZISRHfgynI0zm8001nL2xj7KIV6yueVAWHm/owde2S9hN8k+Dz7GOdsqNoR2TqGKuI6MOfDntj5LMq7t0p3YmwowjCoRP6QAhVgntGYKEKrIlfWsOoh5qkCbVuPFkcrHnpdZAxho9xVX8KL6gNVN/j8iILWKakR8yJd2hchyDfpQTtgpnzobrDG57uZO/RKl/1TyzW9LkBTcSQUuxiff9Yr6UDeRRSBSnnmrWEfKyLkHbHiwKuEA+W/2i5K+IE06RhRdaG4CN7pGjgYUbRg0ae+UhoJmwN5gxmugJwEj0=
+  app: apphello
+  on:
+    repo: tanitasa/hello-java
